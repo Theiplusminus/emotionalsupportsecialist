@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #7f8c8d;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+section h1, section h2 {
+    color: #2c3e50;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#home {
+    background-color: #ecf0f1;
+    padding: 4rem 0;
+}
+
+#about, #services, #contact {
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #7f8c8d;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Certificate Placeholder */
+.certificate img {
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
