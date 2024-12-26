@@ -7,10 +7,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    color: #333;
-    background-color: #f4f9f9;
+    color: black;
+    background-color: white;
+    line-height: 1.6;
 }
 
+/* Header */
 header {
     background-color: #33ffc7;
     color: white;
@@ -55,18 +57,15 @@ header {
 
 /* Hero Section */
 .hero-section {
-    height: 100vh;
-    background: linear-gradient(to right, #33ffc7, white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    background-color: #33ffc7;
+    color: black;
+    padding: 4rem 1rem;
 }
 
 .hero-text h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    animation: fadeIn 2s ease-in-out;
 }
 
 .hero-text p {
@@ -75,72 +74,74 @@ header {
 }
 
 .btn {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 0.7rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
     background-color: white;
-    color: #333;
-    border: 2px solid #333;
+    color: black;
+    border: 2px solid black;
 }
 
-/* About Section */
-.about-section {
-    padding: 4rem 0;
-    background-color: white;
-    color: #333;
+/* Certificate Placeholder */
+.certificate-placeholder {
+    margin-top: 2rem;
+}
+
+.certificate-placeholder img {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* Info Section (About and Services) */
+.info-section {
+    padding: 4rem 1rem;
     text-align: center;
 }
 
-/* Services Section */
-.services-section {
-    padding: 4rem 0;
-    background-color: #33ffc7;
-    color: white;
-    text-align: center;
+.info-section h2 {
+    margin-bottom: 1.5rem;
 }
 
-.service-card {
-    background-color: white;
-    color: #333;
-    margin: 1rem auto;
-    padding: 1.5rem;
-    border-radius: 8px;
-    width: 80%;
-    max-width: 400px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+.info-section p {
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    font-size: 1.1rem;
 }
 
-.service-card:hover {
-    transform: scale(1.05);
+.service {
+    margin: 2rem 0;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #33ffc7;
 }
 
 /* Contact Section */
 .contact-section {
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     text-align: center;
+    background-color: white;
+}
+
+.contact-section h2 {
+    margin-bottom: 1.5rem;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1rem;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
